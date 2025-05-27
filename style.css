@@ -14,10 +14,13 @@ body {
   padding: 20px;
 }
 
-/* Header */
+/* Header (Hero) */
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+  border-radius: 10px;
 }
 
 header h1 {
@@ -25,34 +28,116 @@ header h1 {
   color: #90caf9;
 }
 
+header p {
+  margin: 10px 0 20px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: #90caf9;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background-color: #64b5f6;
+}
+
 /* Navbar */
 nav {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
   background-color: #1e1e1e;
   padding: 10px;
   border-radius: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 nav a {
   color: #bbdefb;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.2s;
 }
 
 nav a:hover {
   color: #ffffff;
 }
 
-/* Main Content */
-main {
-  max-width: 800px;
-  margin: auto;
+/* Services Section */
+.services {
+  margin-bottom: 40px;
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #00000055;
+}
+
+/* Why Us Section */
+.why-us {
+  margin-bottom: 40px;
   background-color: #1e1e1e;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px #00000055;
 }
+
+.why-us h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.why-us ul {
+  list-style: none;
+  text-align: center;
+}
+
+.why-us li {
+  margin-bottom: 10px;
+}
+
+/* Featured Gallery */
+.featured {
+  text-align: center;
+}
+
+.gallery-preview {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.gallery-preview img {
+  max-width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00000099;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
