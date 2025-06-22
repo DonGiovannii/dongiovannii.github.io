@@ -1,72 +1,108 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GlassBenders of Chattanooga</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>GlassBenders of Chattanooga</h1>
-    <p>Precision Cuts. Seamless Installs. Custom Glass Solutions.</p>
-    <a href="contact.html" class="btn">Get a Quote</a>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="nav-brand">GlassBenders</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="GlassPage.html">Estimator</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    
+    <div class="hero-content">
+      <h1>GlassBenders of Chattanooga</h1>
+      <p class="hero-subtitle">Precision Cuts. Seamless Installs. Custom Glass Solutions.</p>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </div>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="services.html">Services</a>
-    <a href="GlassPage.html">Estimator</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <main>
+    <section class="services">
+      <div class="container">
+        <h2>What We Do</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon">🚿</div>
+            <h3>Shower Enclosures</h3>
+            <p>Frameless, sliding, or custom — precision fit every time.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🏠</div>
+            <h3>Custom Windows & Doors</h3>
+            <p>Insulated, tempered, laminated — all measured and installed.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🪞</div>
+            <h3>Tabletops & Mirrors</h3>
+            <p>Custom cut glass for shelves, mirrors, desks, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section class="services">
-    <h2>What We Do</h2>
-    <div class="service-list">
-      <div class="service">
-        <h3>Shower Enclosures</h3>
-        <p>Frameless, sliding, or custom — precision fit every time.</p>
+    <section class="why-us">
+      <div class="container">
+        <h2>Why Choose Us?</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <span class="checkmark">✓</span>
+            <span>10+ Years of Experience</span>
+          </div>
+          <div class="feature">
+            <span class="checkmark">✓</span>
+            <span>Precision Measuring & On-Site Fabrication</span>
+          </div>
+          <div class="feature">
+            <span class="checkmark">✓</span>
+            <span>Fully Insured & Safety Certified</span>
+          </div>
+          <div class="feature">
+            <span class="checkmark">✓</span>
+            <span>Fast Turnaround. Clean Installs.</span>
+          </div>
+        </div>
       </div>
-      <br/>
-      <br/>
-      <div class="service">
-        <h3>Custom Windows & Doors</h3>
-        <p>Insulated, tempered, laminated — all measured and installed.</p>
+    </section>
+
+    <section class="featured">
+      <div class="container">
+        <h2>Recent Projects</h2>
+        <div class="gallery-preview">
+          <div class="project-card">
+            <img src="shower.jpg" alt="Frameless Shower Install">
+            <div class="project-overlay">
+              <h4>Frameless Shower</h4>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="storefront.jpg" alt="Commercial Glass Door">
+            <div class="project-overlay">
+              <h4>Commercial Glass Door</h4>
+            </div>
+          </div>
+        </div>
+        <a href="gallery.html" class="btn btn-secondary">See More Projects</a>
       </div>
-      <br/>
-      <br/>
-      <div class="service">
-        <h3>Tabletops & Mirrors</h3>
-        <p>Custom cut glass for shelves, mirrors, desks, and more.</p>
-      </div>
-    </div>
-  </section>
-  <br/>
-  <br/>
-  <section class="why-us">
-    <h2>Why Choose Us?</h2>
-    <ul>
-      <li>✔️ 10+ Years of Experience</li>
-      <li>✔️ Precision Measuring & On-Site Fabrication</li>
-      <li>✔️ Fully Insured & Safety Certified</li>
-      <li>✔️ Fast Turnaround. Clean Installs.</li>
-    </ul>
-  </section>
-  <br/>
-  <br/>
-  <section class="featured">
-    <h2>Recent Projects</h2>
-    <div class="gallery-preview">
-      <img src="shower.jpg" alt="Frameless Shower Install">
-      <img src="storefront.jpg" alt="Commercial Glass Door">
-    </div>
-    <a href="gallery.html" class="btn">See More</a>
-  </section>
-  <br/>
+    </section>
+  </main>
+
   <footer>
-    <p>&copy; 2025 ClearCut Glass | Serving [Your Region Here]</p>
+    <div class="container">
+      <p>&copy; 2025 GlassBenders of Chattanooga | Serving the Greater Chattanooga Area</p>
+    </div>
   </footer>
 
 </body>
